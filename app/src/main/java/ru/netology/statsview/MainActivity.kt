@@ -18,7 +18,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         applyInset(binding.root)
 
-        binding.stats.data = listOf(
+        val view = binding.stats
+        view.data = listOf(
+            500F,
             500F,
             500F,
             500F,

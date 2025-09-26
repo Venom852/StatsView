@@ -4,5 +4,10 @@
         <attr name="lineWidth" format="dimension|reference" />
         <attr name="fontSize" format="dimension|reference" />
         <attr name="colors" format="reference" />
+        <attr name="typeAnimation" format="enum">
+            <enum name="rotation" value="0"/>
+            <enum name="sequential" value="1"/>
+            <enum name="bidirectional" value="2"/>
+        </attr>
     </declare-styleable>
 </resources>

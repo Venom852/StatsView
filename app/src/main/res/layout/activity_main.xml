@@ -7,6 +7,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal" />
+
     <ru.netology.statsview.ui.StatsView
         android:id="@+id/stats"
         android:layout_width="300dp"
@@ -14,5 +20,6 @@
         android:layout_gravity="center"
         app:colors="@array/colors"
         app:fontSize="50dp"
-        app:lineWidth="20dp" />
+        app:lineWidth="20dp"
+        app:typeAnimation="bidirectional"/>
 </FrameLayout>
